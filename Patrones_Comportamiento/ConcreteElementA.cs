@@ -6,10 +6,10 @@ public class ConcreteElementA : IElement
 {
     public void Accept(IVisitor visitor)
     {
-        visitor.VisitConcreteComponentA(this);
+        visitor.VisitConcreteElementA(this);
     }
     
-    public string ExclusiveMethodOfConcreteComponentA()
+    public string ExclusiveMethodOfConcreteElementA()
     {
         return "A";
     }

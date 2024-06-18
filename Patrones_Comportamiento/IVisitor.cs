@@ -5,7 +5,7 @@ namespace Patrones_Comportamiento;
 // que es uno de los tipos de elementos de la estructura.
 public interface IVisitor
 {
-    void VisitConcreteComponentA(ConcreteElementA element);
+    void VisitConcreteElementA(ConcreteElementA element);
 
-    void VisitConcreteComponentB(ConcreteElementB element);
+    void VisitConcreteElementB(ConcreteElementB element);
 }

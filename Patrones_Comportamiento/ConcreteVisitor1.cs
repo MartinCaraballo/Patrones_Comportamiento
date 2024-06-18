@@ -4,13 +4,13 @@ namespace Patrones_Comportamiento;
 // Implementan cada uno de los métodos de visita definidos en la interfaz Visitor.
 public class ConcreteVisitor1 : IVisitor
 {
-    public void VisitConcreteComponentA(ConcreteElementA element)
+    public void VisitConcreteElementA(ConcreteElementA element)
     {
-        Console.WriteLine(element.ExclusiveMethodOfConcreteComponentA() + " + ConcreteVisitor1");
+        Console.WriteLine(element.ExclusiveMethodOfConcreteElementA() + " + ConcreteVisitor1");
     }
 
-    public void VisitConcreteComponentB(ConcreteElementB element)
+    public void VisitConcreteElementB(ConcreteElementB element)
     {
-        Console.WriteLine(element.SpecialMethodOfConcreteComponentB() + " + ConcreteVisitor1");
+        Console.WriteLine(element.SpecialMethodOfConcreteElementB() + " + ConcreteVisitor1");
     }
 }
